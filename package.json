@@ -1,6 +1,6 @@
 {
   "name": "aurelia-history",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An abstract module which specifies the interface for history implementations used by a router.",
   "keywords": [
     "aurelia",
@@ -16,7 +16,7 @@
   "main": "dist/commonjs/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/aurelia/history"
+    "url": "http://github.com/aurelia/history"
   },
   "jspm": {
     "directories": {
