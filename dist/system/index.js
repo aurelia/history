@@ -11,11 +11,11 @@ System.register([], function (_export) {
       };
 
       History = (function () {
-        var History = function History() {};
+        function History() {}
 
         _prototypeProperties(History, null, {
           activate: {
-            value: function () {
+            value: function activate() {
               throw new Error("History must implement activate().");
             },
             writable: true,
@@ -23,7 +23,7 @@ System.register([], function (_export) {
             configurable: true
           },
           deactivate: {
-            value: function () {
+            value: function deactivate() {
               throw new Error("History must implement deactivate().");
             },
             writable: true,
@@ -31,7 +31,7 @@ System.register([], function (_export) {
             configurable: true
           },
           navigate: {
-            value: function () {
+            value: function navigate() {
               throw new Error("History must implement navigate().");
             },
             writable: true,
@@ -39,7 +39,7 @@ System.register([], function (_export) {
             configurable: true
           },
           navigateBack: {
-            value: function () {
+            value: function navigateBack() {
               throw new Error("History must implement navigateBack().");
             },
             writable: true,
