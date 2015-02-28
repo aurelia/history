@@ -1,12 +1,13 @@
 "use strict";
 
-var _prototypeProperties = function (child, staticProps, instanceProps) {
-  if (staticProps) Object.defineProperties(child, staticProps);
-  if (instanceProps) Object.defineProperties(child.prototype, instanceProps);
-};
+var _prototypeProperties = function (child, staticProps, instanceProps) { if (staticProps) Object.defineProperties(child, staticProps); if (instanceProps) Object.defineProperties(child.prototype, instanceProps); };
 
-var History = (function () {
-  function History() {}
+var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
+
+var History = exports.History = (function () {
+  function History() {
+    _classCallCheck(this, History);
+  }
 
   _prototypeProperties(History, null, {
     activate: {
@@ -14,7 +15,6 @@ var History = (function () {
         throw new Error("History must implement activate().");
       },
       writable: true,
-      enumerable: true,
       configurable: true
     },
     deactivate: {
@@ -22,7 +22,6 @@ var History = (function () {
         throw new Error("History must implement deactivate().");
       },
       writable: true,
-      enumerable: true,
       configurable: true
     },
     navigate: {
@@ -30,7 +29,6 @@ var History = (function () {
         throw new Error("History must implement navigate().");
       },
       writable: true,
-      enumerable: true,
       configurable: true
     },
     navigateBack: {
@@ -38,7 +36,6 @@ var History = (function () {
         throw new Error("History must implement navigateBack().");
       },
       writable: true,
-      enumerable: true,
       configurable: true
     }
   });
@@ -46,4 +43,6 @@ var History = (function () {
   return History;
 })();
 
-exports.History = History;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});

@@ -1,17 +1,19 @@
 System.register([], function (_export) {
-  "use strict";
+  var _prototypeProperties, _classCallCheck, History;
 
-  var _prototypeProperties, History;
   return {
     setters: [],
     execute: function () {
-      _prototypeProperties = function (child, staticProps, instanceProps) {
-        if (staticProps) Object.defineProperties(child, staticProps);
-        if (instanceProps) Object.defineProperties(child.prototype, instanceProps);
-      };
+      "use strict";
 
-      History = (function () {
-        function History() {}
+      _prototypeProperties = function (child, staticProps, instanceProps) { if (staticProps) Object.defineProperties(child, staticProps); if (instanceProps) Object.defineProperties(child.prototype, instanceProps); };
+
+      _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
+
+      History = _export("History", (function () {
+        function History() {
+          _classCallCheck(this, History);
+        }
 
         _prototypeProperties(History, null, {
           activate: {
@@ -19,7 +21,6 @@ System.register([], function (_export) {
               throw new Error("History must implement activate().");
             },
             writable: true,
-            enumerable: true,
             configurable: true
           },
           deactivate: {
@@ -27,7 +28,6 @@ System.register([], function (_export) {
               throw new Error("History must implement deactivate().");
             },
             writable: true,
-            enumerable: true,
             configurable: true
           },
           navigate: {
@@ -35,7 +35,6 @@ System.register([], function (_export) {
               throw new Error("History must implement navigate().");
             },
             writable: true,
-            enumerable: true,
             configurable: true
           },
           navigateBack: {
@@ -43,14 +42,12 @@ System.register([], function (_export) {
               throw new Error("History must implement navigateBack().");
             },
             writable: true,
-            enumerable: true,
             configurable: true
           }
         });
 
         return History;
-      })();
-      _export("History", History);
+      })());
     }
   };
 });
