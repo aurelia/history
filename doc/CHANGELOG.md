@@ -1,5 +1,6 @@
 ## 0.4.0 (2015-04-30)
 
+* **all** updated the compilation process
 
 ## 0.3.0 (2015-04-09)
 
@@ -39,4 +40,3 @@
 #### Features
 
 * **build:** update compiler and switch to register module format ([1b4e7963](http://github.com/aurelia/history/commit/1b4e7963730359384ffd7e5d9b06399920a91343))
-
