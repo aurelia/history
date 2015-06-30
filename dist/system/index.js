@@ -13,7 +13,7 @@ System.register([], function (_export) {
           _classCallCheck(this, History);
         }
 
-        History.prototype.activate = function activate() {
+        History.prototype.activate = function activate(options) {
           throw new Error('History must implement activate().');
         };
 
@@ -21,7 +21,7 @@ System.register([], function (_export) {
           throw new Error('History must implement deactivate().');
         };
 
-        History.prototype.navigate = function navigate() {
+        History.prototype.navigate = function navigate(fragment, options) {
           throw new Error('History must implement navigate().');
         };
 

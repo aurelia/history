@@ -9,7 +9,7 @@ var History = (function () {
     _classCallCheck(this, History);
   }
 
-  History.prototype.activate = function activate() {
+  History.prototype.activate = function activate(options) {
     throw new Error('History must implement activate().');
   };
 
@@ -17,7 +17,7 @@ var History = (function () {
     throw new Error('History must implement deactivate().');
   };
 
-  History.prototype.navigate = function navigate() {
+  History.prototype.navigate = function navigate(fragment, options) {
     throw new Error('History must implement navigate().');
   };
 

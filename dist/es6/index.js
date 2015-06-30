@@ -1,17 +1,17 @@
 export class History {
-  activate(){
+  activate(options:Object):boolean{
     throw new Error('History must implement activate().');
   }
 
-  deactivate(){
+  deactivate():void{
     throw new Error('History must implement deactivate().');
   }
 
-  navigate() {
+  navigate(fragment:string, options:Object):boolean {
     throw new Error('History must implement navigate().');
   }
 
-  navigateBack() {
+  navigateBack():void {
     throw new Error('History must implement navigateBack().');
   }
 }

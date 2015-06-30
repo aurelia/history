@@ -10,7 +10,7 @@ define(['exports'], function (exports) {
       _classCallCheck(this, History);
     }
 
-    History.prototype.activate = function activate() {
+    History.prototype.activate = function activate(options) {
       throw new Error('History must implement activate().');
     };
 
@@ -18,7 +18,7 @@ define(['exports'], function (exports) {
       throw new Error('History must implement deactivate().');
     };
 
-    History.prototype.navigate = function navigate() {
+    History.prototype.navigate = function navigate(fragment, options) {
       throw new Error('History must implement navigate().');
     };
 
