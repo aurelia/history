@@ -13,13 +13,13 @@
   },
   "license": "MIT",
   "author": "Rob Eisenberg <rob@bluespire.com> (http://robeisenberg.com/)",
-  "main": "dist/commonjs/index.js",
+  "main": "dist/commonjs/aurelia-history.js",
   "repository": {
     "type": "git",
     "url": "http://github.com/aurelia/history"
   },
   "jspm": {
-    "main": "index",
+    "main": "aurelia-history",
     "format": "amd",
     "directories": {
       "lib": "dist/amd"
