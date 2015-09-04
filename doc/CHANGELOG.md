@@ -1,3 +1,16 @@
+## 0.7.0 (2015-09-04)
+
+
+#### Bug Fixes
+
+* **build:** update linting, testing and tools ([6bf11d5e](http://github.com/aurelia/history/commit/6bf11d5e7213910a31e6fa0d194f6d615c207615))
+
+
+#### Features
+
+* **docs:** generate api.json from .d.ts file ([082018fe](http://github.com/aurelia/history/commit/082018fe6cdc1cf547f1cf67649a85ab45e4be09))
+
+
 ### 0.6.1 (2015-07-29)
 
 * improve out module file name

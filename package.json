@@ -1,6 +1,6 @@
 {
   "name": "aurelia-history",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "An abstract module which specifies the interface for history implementations used by a router.",
   "keywords": [
     "aurelia",
@@ -27,9 +27,7 @@
     "devDependencies": {
       "babel": "npm:babel-core@^5.1.13",
       "babel-runtime": "npm:babel-runtime@^5.1.13",
-      "core-js": "npm:core-js@^0.9.5",
-      "traceur": "github:jmcriffey/bower-traceur@0.0.91",
-      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.91"
+      "core-js": "npm:core-js@^0.9.5"
     }
   },
   "devDependencies": {
