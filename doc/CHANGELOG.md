@@ -1,3 +1,23 @@
+## 0.8.0 (2015-10-13)
+
+
+#### Bug Fixes
+
+* **all:** update compiler ([551a44de](http://github.com/aurelia/history/commit/551a44de433e3809c0c868da6f707e150a22085f))
+* **build:**
+  * update linting, testing and tools ([6bf11d5e](http://github.com/aurelia/history/commit/6bf11d5e7213910a31e6fa0d194f6d615c207615))
+  * add missing bower bump ([6e84deca](http://github.com/aurelia/history/commit/6e84decadaf565971dce7cd30869dd23086abcbe))
+* **package:**
+  * update aurelia tools and dts generator ([f10b6a84](http://github.com/aurelia/history/commit/f10b6a840f94b3692ae0f4a32e65718d1e4afc62))
+  * change jspm directories ([36d7d314](http://github.com/aurelia/history/commit/36d7d31464d4d41b7f97dce03fa5923626bc5837))
+
+
+#### Features
+
+* **build:** update compiler and switch to register module format ([1b4e7963](http://github.com/aurelia/history/commit/1b4e7963730359384ffd7e5d9b06399920a91343))
+* **docs:** generate api.json from .d.ts file ([082018fe](http://github.com/aurelia/history/commit/082018fe6cdc1cf547f1cf67649a85ab45e4be09))
+
+
 ## 0.7.0 (2015-09-04)
 
 
