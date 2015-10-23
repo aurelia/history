@@ -1,7 +1,7 @@
 /**
  * The options that can be specified as part of a history navigation request.
  */
-interface HistoryOptions {
+interface NavigationOptions {
   /**
    * Replace the existing route.
    */
@@ -36,8 +36,9 @@ export class History {
    * Causes a history navigation to occur.
    * @param fragment The history fragment to navigate to.
    * @param options The set of options that specify how the navigation should occur.
+   * @return True if navigation occurred/false otherwise.
    */
-  navigate(fragment: string, options?: HistoryOptions): boolean {
+  navigate(fragment: string, options?: NavigationOptions): boolean {
     throw new Error('History must implement navigate().');
   }
 

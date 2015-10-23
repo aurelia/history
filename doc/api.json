@@ -99,7 +99,8 @@
               "kindString": "Call signature",
               "flags": {},
               "comment": {
-                "shortText": "Causes a history navigation to occur."
+                "shortText": "Causes a history navigation to occur.",
+                "returns": "True if navigation occurred/false otherwise.\n"
               },
               "parameters": [
                 {
@@ -125,11 +126,11 @@
                     "isOptional": true
                   },
                   "comment": {
-                    "text": "The set of options that specify how the navigation should occur.\n"
+                    "text": "The set of options that specify how the navigation should occur."
                   },
                   "type": {
                     "type": "reference",
-                    "name": "HistoryOptions",
+                    "name": "NavigationOptions",
                     "id": 3,
                     "moduleName": "\"aurelia-history\""
                   }
@@ -183,7 +184,7 @@
     },
     {
       "id": 3,
-      "name": "HistoryOptions",
+      "name": "NavigationOptions",
       "kind": 256,
       "kindString": "Interface",
       "flags": {

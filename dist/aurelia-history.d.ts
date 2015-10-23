@@ -3,7 +3,7 @@ declare module 'aurelia-history' {
   /**
    * The options that can be specified as part of a history navigation request.
    */
-  export interface HistoryOptions {
+  export interface NavigationOptions {
     
     /**
        * Replace the existing route.
@@ -36,8 +36,9 @@ declare module 'aurelia-history' {
        * Causes a history navigation to occur.
        * @param fragment The history fragment to navigate to.
        * @param options The set of options that specify how the navigation should occur.
+       * @return True if navigation occurred/false otherwise.
        */
-    navigate(fragment: string, options?: HistoryOptions): boolean;
+    navigate(fragment: string, options?: NavigationOptions): boolean;
     
     /**
        * Causes the history state to navigate back.
