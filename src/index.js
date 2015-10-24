@@ -19,9 +19,10 @@ interface NavigationOptions {
 export class History {
   /**
    * Activates the history object.
+   *
    * @param options The set of options to activate history with.
    */
-  activate(options: Object) : boolean {
+  activate(options: Object): boolean {
     throw new Error('History must implement activate().');
   }
 
@@ -34,6 +35,7 @@ export class History {
 
   /**
    * Causes a history navigation to occur.
+   *
    * @param fragment The history fragment to navigate to.
    * @param options The set of options that specify how the navigation should occur.
    * @return True if navigation occurred/false otherwise.
@@ -47,5 +49,12 @@ export class History {
    */
   navigateBack(): void {
     throw new Error('History must implement navigateBack().');
+  }
+
+  /**
+   * Updates the title associated with the current location.
+   */
+  setTitle(title: string): void {
+    throw new Error('History must implement setTitle().');
   }
 }
