@@ -1,3 +1,11 @@
+## 0.9.0 (2015-11-09)
+
+
+#### Features
+
+* **history:** add method for setting the title ([8c634825](http://github.com/aurelia/history/commit/8c6348256bcdfe24bceec91425021be8dff8a081))
+
+
 ## 0.8.0 (2015-10-13)
 
 

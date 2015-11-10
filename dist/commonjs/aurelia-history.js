@@ -25,6 +25,10 @@ var History = (function () {
     throw new Error('History must implement navigateBack().');
   };
 
+  History.prototype.setTitle = function setTitle(title) {
+    throw new Error('History must implement setTitle().');
+  };
+
   return History;
 })();
 

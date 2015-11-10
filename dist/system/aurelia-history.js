@@ -29,6 +29,10 @@ System.register([], function (_export) {
           throw new Error('History must implement navigateBack().');
         };
 
+        History.prototype.setTitle = function setTitle(title) {
+          throw new Error('History must implement setTitle().');
+        };
+
         return History;
       })();
 

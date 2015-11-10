@@ -1,6 +1,6 @@
 {
   "name": "aurelia-history",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "An abstract module which specifies the interface for history implementations used by a router.",
   "keywords": [
     "aurelia",
