@@ -6,7 +6,6 @@ gulp.task('default', function(callback) {
     'lint',
     'build',
     'doc',
-    'test',
     callback
   );
 });
