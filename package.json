@@ -22,12 +22,13 @@
     "test": "gulp test",
     "ci": "gulp ci"
   },
-  "jspmNodeConversion": false,
   "jspm": {
+    "registry": "npm",
+    "jspmPackage": true,
     "main": "aurelia-history",
     "format": "amd",
     "directories": {
-      "lib": "dist/amd"
+      "dist": "dist/amd"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.1.13",
