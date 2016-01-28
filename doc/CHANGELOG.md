@@ -1,3 +1,11 @@
+### 1.0.0-beta.1.1.0 (2016-01-28)
+
+
+#### Bug Fixes
+
+* **package:** update metadata for jspm ([e754d509](http://github.com/aurelia/history/commit/e754d509beacbdf41799db73e9490a069de3ff76))
+
+
 ### 1.0.0-beta.1 (2015-11-16)
 
 
