@@ -19,6 +19,9 @@ declare module 'aurelia-history' {
   /**
    * An abstract base class for implementors of the basic history api.
    */
+  /**
+   * An abstract base class for implementors of the basic history api.
+   */
   export class History {
     
     /**

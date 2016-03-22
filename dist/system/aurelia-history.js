@@ -1,14 +1,18 @@
-System.register([], function (_export) {
-  'use strict';
+'use strict';
 
+System.register([], function (_export, _context) {
   var History;
 
-  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+  function _classCallCheck(instance, Constructor) {
+    if (!(instance instanceof Constructor)) {
+      throw new TypeError("Cannot call a class as a function");
+    }
+  }
 
   return {
     setters: [],
     execute: function () {
-      History = (function () {
+      _export('History', History = function () {
         function History() {
           _classCallCheck(this, History);
         }
@@ -34,7 +38,7 @@ System.register([], function (_export) {
         };
 
         return History;
-      })();
+      }());
 
       _export('History', History);
     }
