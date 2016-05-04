@@ -13,6 +13,10 @@ interface NavigationOptions {
   trigger?: boolean;
 }
 
+function mi(name) {
+  throw new Error(`History must implement ${name}().`);
+}
+
 /**
  * An abstract base class for implementors of the basic history api.
  */
@@ -21,16 +25,17 @@ export class History {
    * Activates the history object.
    *
    * @param options The set of options to activate history with.
+   * @returns Whether or not activation occurred.
    */
   activate(options: Object): boolean {
-    throw new Error('History must implement activate().');
+    mi('activate');
   }
 
   /**
    * Deactivates the history object.
    */
   deactivate(): void {
-    throw new Error('History must implement deactivate().');
+    mi('deactivate');
   }
 
   /**
@@ -41,20 +46,20 @@ export class History {
    * @return True if navigation occurred/false otherwise.
    */
   navigate(fragment: string, options?: NavigationOptions): boolean {
-    throw new Error('History must implement navigate().');
+    mi('navigate');
   }
 
   /**
    * Causes the history state to navigate back.
    */
   navigateBack(): void {
-    throw new Error('History must implement navigateBack().');
+    mi('navigateBack');
   }
 
   /**
    * Updates the title associated with the current location.
    */
   setTitle(title: string): void {
-    throw new Error('History must implement setTitle().');
+    mi('setTitle');
   }
 }
