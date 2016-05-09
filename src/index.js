@@ -39,6 +39,13 @@ export class History {
   }
 
   /**
+   * Returns the fully-qualified root of the current history object.
+   */
+  getAbsoluteRoot(): string {
+    throw new Error('History must implement getAbsoluteRoot().');
+  }
+
+  /**
    * Causes a history navigation to occur.
    *
    * @param fragment The history fragment to navigate to.
