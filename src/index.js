@@ -40,9 +40,10 @@ export class History {
 
   /**
    * Returns the fully-qualified root of the current history object.
+   * @returns The absolute root of the application.
    */
   getAbsoluteRoot(): string {
-    throw new Error('History must implement getAbsoluteRoot().');
+    mi('getAbsoluteRoot');
   }
 
   /**
@@ -50,7 +51,7 @@ export class History {
    *
    * @param fragment The history fragment to navigate to.
    * @param options The set of options that specify how the navigation should occur.
-   * @return True if navigation occurred/false otherwise.
+   * @returns True if navigation occurred/false otherwise.
    */
   navigate(fragment: string, options?: NavigationOptions): boolean {
     mi('navigate');
