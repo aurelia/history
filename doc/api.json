@@ -33,7 +33,8 @@
               "kindString": "Call signature",
               "flags": {},
               "comment": {
-                "shortText": "Activates the history object."
+                "shortText": "Activates the history object.",
+                "returns": "Whether or not activation occurred.\n"
               },
               "parameters": [
                 {
@@ -43,7 +44,7 @@
                   "kindString": "Parameter",
                   "flags": {},
                   "comment": {
-                    "text": "The set of options to activate history with.\n"
+                    "text": "The set of options to activate history with."
                   },
                   "type": {
                     "type": "reference",
@@ -85,7 +86,7 @@
         },
         {
           "id": 12,
-          "name": "navigate",
+          "name": "getAbsoluteRoot",
           "kind": 2048,
           "kindString": "Method",
           "flags": {
@@ -94,6 +95,32 @@
           "signatures": [
             {
               "id": 13,
+              "name": "getAbsoluteRoot",
+              "kind": 4096,
+              "kindString": "Call signature",
+              "flags": {},
+              "comment": {
+                "shortText": "Returns the fully-qualified root of the current history object.",
+                "returns": "The absolute root of the application.\n"
+              },
+              "type": {
+                "type": "instrinct",
+                "name": "string"
+              }
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "navigate",
+          "kind": 2048,
+          "kindString": "Method",
+          "flags": {
+            "isExported": true
+          },
+          "signatures": [
+            {
+              "id": 15,
               "name": "navigate",
               "kind": 4096,
               "kindString": "Call signature",
@@ -104,7 +131,7 @@
               },
               "parameters": [
                 {
-                  "id": 14,
+                  "id": 16,
                   "name": "fragment",
                   "kind": 32768,
                   "kindString": "Parameter",
@@ -118,7 +145,7 @@
                   }
                 },
                 {
-                  "id": 15,
+                  "id": 17,
                   "name": "options",
                   "kind": 32768,
                   "kindString": "Parameter",
@@ -144,7 +171,7 @@
           ]
         },
         {
-          "id": 16,
+          "id": 18,
           "name": "navigateBack",
           "kind": 2048,
           "kindString": "Method",
@@ -153,7 +180,7 @@
           },
           "signatures": [
             {
-              "id": 17,
+              "id": 19,
               "name": "navigateBack",
               "kind": 4096,
               "kindString": "Call signature",
@@ -169,7 +196,7 @@
           ]
         },
         {
-          "id": 18,
+          "id": 20,
           "name": "setTitle",
           "kind": 2048,
           "kindString": "Method",
@@ -178,7 +205,7 @@
           },
           "signatures": [
             {
-              "id": 19,
+              "id": 21,
               "name": "setTitle",
               "kind": 4096,
               "kindString": "Call signature",
@@ -188,7 +215,7 @@
               },
               "parameters": [
                 {
-                  "id": 20,
+                  "id": 22,
                   "name": "title",
                   "kind": 32768,
                   "kindString": "Parameter",
@@ -215,8 +242,9 @@
             7,
             10,
             12,
-            16,
-            18
+            14,
+            18,
+            20
           ]
         }
       ]

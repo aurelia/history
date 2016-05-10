@@ -1,3 +1,11 @@
+### 1.0.0-beta.1.2.1 (2016-05-10)
+
+
+#### Features
+
+* **history:** add getAbsoluteRoot method ([96b5e6ed](http://github.com/aurelia/history/commit/96b5e6eda58cb20f0b058dd2369959e0b8d10abf))
+
+
 ### 1.0.0-beta.1.2.0 (2016-03-22)
 
 * Update to Babel 6

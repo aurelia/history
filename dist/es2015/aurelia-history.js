@@ -1,22 +1,31 @@
 
+
+function mi(name) {
+  throw new Error(`History must implement ${ name }().`);
+}
+
 export let History = class History {
   activate(options) {
-    throw new Error('History must implement activate().');
+    mi('activate');
   }
 
   deactivate() {
-    throw new Error('History must implement deactivate().');
+    mi('deactivate');
+  }
+
+  getAbsoluteRoot() {
+    mi('getAbsoluteRoot');
   }
 
   navigate(fragment, options) {
-    throw new Error('History must implement navigate().');
+    mi('navigate');
   }
 
   navigateBack() {
-    throw new Error('History must implement navigateBack().');
+    mi('navigateBack');
   }
 
   setTitle(title) {
-    throw new Error('History must implement setTitle().');
+    mi('setTitle');
   }
 };
