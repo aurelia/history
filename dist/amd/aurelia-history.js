@@ -5,11 +5,7 @@ define(['exports'], function (exports) {
     value: true
   });
 
-  function _classCallCheck(instance, Constructor) {
-    if (!(instance instanceof Constructor)) {
-      throw new TypeError("Cannot call a class as a function");
-    }
-  }
+  
 
   function mi(name) {
     throw new Error('History must implement ' + name + '().');
@@ -17,7 +13,7 @@ define(['exports'], function (exports) {
 
   var History = exports.History = function () {
     function History() {
-      _classCallCheck(this, History);
+      
     }
 
     History.prototype.activate = function activate(options) {

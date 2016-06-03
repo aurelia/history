@@ -3,11 +3,7 @@
 System.register([], function (_export, _context) {
   var History;
 
-  function _classCallCheck(instance, Constructor) {
-    if (!(instance instanceof Constructor)) {
-      throw new TypeError("Cannot call a class as a function");
-    }
-  }
+  
 
   function mi(name) {
     throw new Error('History must implement ' + name + '().');
@@ -18,7 +14,7 @@ System.register([], function (_export, _context) {
     execute: function () {
       _export('History', History = function () {
         function History() {
-          _classCallCheck(this, History);
+          
         }
 
         History.prototype.activate = function activate(options) {
