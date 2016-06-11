@@ -1,10 +1,9 @@
 # aurelia-history
 
-[![Build Status](https://travis-ci.org/aurelia/history.svg?branch=master)](https://travis-ci.org/aurelia/history)
-[![Coverage Status](https://coveralls.io/repos/aurelia/history/badge.svg?branch=master&service=github)](https://coveralls.io/github/aurelia/history?branch=master)
 [![npm Version](https://img.shields.io/npm/v/aurelia-history.svg)](https://www.npmjs.com/package/aurelia-history)
 [![ZenHub](https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png)](https://zenhub.io)
 [![Join the chat at https://gitter.im/aurelia/discuss](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/aurelia/discuss?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![CircleCI](https://circleci.com/gh/aurelia/history.svg?style=shield)](https://circleci.com/gh/aurelia/history)
 
 This library is part of the [Aurelia](http://www.aurelia.io/) platform and contains an abstract module which specifies the interface for history implementations used by a router.
 
