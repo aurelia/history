@@ -43,6 +43,14 @@ System.register([], function (_export, _context) {
           mi('setTitle');
         };
 
+        History.prototype.setState = function setState(key, value) {
+          mi('setState');
+        };
+
+        History.prototype.getState = function getState(key) {
+          mi('getState');
+        };
+
         return History;
       }());
 

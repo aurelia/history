@@ -28,4 +28,12 @@ export let History = class History {
   setTitle(title) {
     mi('setTitle');
   }
+
+  setState(key, value) {
+    mi('setState');
+  }
+
+  getState(key) {
+    mi('getState');
+  }
 };

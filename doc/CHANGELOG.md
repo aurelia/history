@@ -1,3 +1,10 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/aurelia/history/compare/1.0.0...v1.1.0) (2017-10-02)
+
+#### Features
+
+* Added getState and setState to the history interface
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/aurelia/history/compare/1.0.0-rc.1.0.0...v1.0.0) (2016-07-27)
 
