@@ -70,4 +70,22 @@ export class History {
   setTitle(title: string): void {
     mi('setTitle');
   }
+
+  /**
+   * Sets a key in the history page state.
+   * @param key The key for the value.
+   * @param value The value to set.
+   */
+  setState(key: string, value: any): void {
+    mi('setState');
+  }
+
+  /**
+   * Gets a key in the history page state.
+   * @param key The key for the value.
+   * @returns The value for the key.
+   */
+  getState(key: string): any {
+    mi('getState');
+  }
 }
