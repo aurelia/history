@@ -88,4 +88,12 @@ export class History {
   getState(key: string): any {
     mi('getState');
   }
+
+  /**
+   * Returns the current index in the history object.
+   * @returns The current index.
+   */
+  getHistoryIndex(): number {
+    mi('getHistoryIndex');
+  }
 }
