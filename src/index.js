@@ -90,10 +90,18 @@ export class History {
   }
 
   /**
-   * Returns the current index in the history object.
+   * Returns the current index in the navigation history.
    * @returns The current index.
    */
   getHistoryIndex(): number {
     mi('getHistoryIndex');
+  }
+
+  /**
+   * Move to a specific position in the navigation history.
+   * @param movement The amount of steps, positive or negative, to move.
+   */
+  go(movement: number): void {
+    mi('go');
   }
 }
