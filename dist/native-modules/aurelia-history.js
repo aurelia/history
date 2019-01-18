@@ -41,5 +41,13 @@ export var History = function () {
     mi('getState');
   };
 
+  History.prototype.getHistoryIndex = function getHistoryIndex() {
+    mi('getHistoryIndex');
+  };
+
+  History.prototype.go = function go(movement) {
+    mi('go');
+  };
+
   return History;
 }();

@@ -1,3 +1,11 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/aurelia/history/compare/1.1.0...1.2.0) (2019-01-18)
+
+#### Features
+
+* Add go method.
+* Add history index getter.
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/aurelia/history/compare/1.0.0...v1.1.0) (2017-10-02)
 

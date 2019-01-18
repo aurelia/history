@@ -51,6 +51,14 @@ System.register([], function (_export, _context) {
           mi('getState');
         };
 
+        History.prototype.getHistoryIndex = function getHistoryIndex() {
+          mi('getHistoryIndex');
+        };
+
+        History.prototype.go = function go(movement) {
+          mi('go');
+        };
+
         return History;
       }());
 

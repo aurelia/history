@@ -1,7 +1,7 @@
 
 
 function mi(name) {
-  throw new Error(`History must implement ${ name }().`);
+  throw new Error(`History must implement ${name}().`);
 }
 
 export let History = class History {
@@ -35,5 +35,13 @@ export let History = class History {
 
   getState(key) {
     mi('getState');
+  }
+
+  getHistoryIndex() {
+    mi('getHistoryIndex');
+  }
+
+  go(movement) {
+    mi('go');
   }
 };

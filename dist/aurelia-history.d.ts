@@ -71,4 +71,16 @@ export declare class History {
      * @returns The value for the key.
      */
   getState(key: string): any;
+  
+  /**
+     * Returns the current index in the navigation history.
+     * @returns The current index.
+     */
+  getHistoryIndex(): number;
+  
+  /**
+     * Move to a specific position in the navigation history.
+     * @param movement The amount of steps, positive or negative, to move.
+     */
+  go(movement: number): void;
 }
