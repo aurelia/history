@@ -14,12 +14,20 @@
   "license": "MIT",
   "author": "Rob Eisenberg <rob@bluespire.com> (http://robeisenberg.com/)",
   "main": "dist/commonjs/aurelia-history.js",
-  "module": "dist/es2015/aurelia-history.js",
+  "module": "dist/native-modules/aurelia-history.js",
   "typings": "dist/aurelia-history.d.ts",
   "repository": {
     "type": "git",
     "url": "http://github.com/aurelia/history"
   },
+  "files": [
+    "dist",
+    "doc",
+    "src",
+    "typings.json",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "gulp test",
     "ci": "gulp ci"
