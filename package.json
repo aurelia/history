@@ -1,6 +1,6 @@
 {
   "name": "aurelia-history",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "An abstract module which specifies the interface for history implementations used by a router.",
   "keywords": [
     "aurelia",
@@ -36,7 +36,6 @@
   },
   "jspm": {
     "registry": "npm",
-    "jspmPackage": true,
     "main": "aurelia-history",
     "format": "amd",
     "directories": {
