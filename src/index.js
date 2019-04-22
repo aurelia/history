@@ -47,6 +47,13 @@ export class History {
   }
 
   /**
+   * Register route patterns to be ignored when the history detects a change on the url
+   */
+  ignore(routes: Array<string | RegExp | ((route: string) => boolean)>): void {
+    mi('ignore');
+  }
+
+  /**
    * Causes a history navigation to occur.
    *
    * @param fragment The history fragment to navigate to.
