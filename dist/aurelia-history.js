@@ -1,3 +1,4 @@
+
 /**
  * The options that can be specified as part of a history navigation request.
  */
@@ -44,13 +45,6 @@ export class History {
    */
   getAbsoluteRoot(): string {
     mi('getAbsoluteRoot');
-  }
-
-  /**
-   * Register route patterns to be ignored when the history detects a change on the url
-   */
-  ignore(routes: Array<string | RegExp | ((route: string) => boolean)>): void {
-    mi('ignore');
   }
 
   /**
