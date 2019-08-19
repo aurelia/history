@@ -27,7 +27,7 @@ export class History {
    * @param options The set of options to activate history with.
    * @returns Whether or not activation occurred.
    */
-  activate(options: Object): boolean {
+  activate(options: Object): boolean | Promise<any> {
     mi('activate');
   }
 
@@ -53,7 +53,7 @@ export class History {
    * @param options The set of options that specify how the navigation should occur.
    * @returns True if navigation occurred/false otherwise.
    */
-  navigate(fragment: string, options?: NavigationOptions): boolean {
+  navigate(fragment: string, options?: NavigationOptions): boolean | Promise<any> {
     mi('navigate');
   }
 
