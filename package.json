@@ -63,7 +63,7 @@
     "babel-preset-stage-1": "^6.5.0",
     "del": "^2.2.1",
     "eslint": "^4.18.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-babel": "^6.1.2",
     "gulp-bump": "^2.2.0",
     "gulp-concat": "^2.6.0",
